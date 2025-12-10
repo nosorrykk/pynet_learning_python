@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / output
+output/
+logs/
+*.log
+
+# Secrets
+*.env
+secrets/
+*.key
+
+# Network configs
+configs/
+*.cfg
+*.config
+
+
+add .gitignore file
