@@ -40,9 +40,9 @@ print(f"Last field:\n{fields[-1]}")
 #Modifications to the fields variable: 
 
 fields.remove("(min)")
-fields.remove("Hardware")
-fields.remove("Addr")
-Hardware_Addr = "Hardware" + "_" + "Addr"
-fields.insert(3, f"{Hardware_Addr}")
+new_field = fields[3] + "_" + fields[4]
+del fields[3]
+del fields[3]
+fields.insert(3, f"{new_field}")
 print(f"Fields after modifications:\n{fields}")
 
